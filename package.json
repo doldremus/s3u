@@ -1,0 +1,17 @@
+{
+  "name": "recursive-rename",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "build": "pkg index.js --targets node12-win-x64 --output build/s3u.exe --compress GZip"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1261.0",
+    "uuid": "^9.0.0",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  }
+}
